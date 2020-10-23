@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Регистрация</title>
+    <a href="page1.html#главная">Перейти на главную</a>
+  </head>
+  <body>
+    <p>
+      <b>В первый раз на сайте? Зарегистрируйся!</b>
+    </p>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Регистрация</legend>
+        <div>
+          <label>
+            Логин:
+            <input type="text" placeholder="Придумай логин" required minlength="5" maxlength="20" autofocus>
+            <em>*От 5 до 20 символов</em>
+          </label>
+        </div>
+        <div>
+          <label>
+            Email:
+            <input type="email" placeholder="Введите Email" required>
+          </label>
+        </div>
+        <br>
+        <label>
+          Пароль:
+          <input type="password" placeholder="Придумай пароль" autofocus required minlength="5" maxlength="20">
+          <b>*Пароль должен содержать от 5 до 20 символов</b>
+        </label>
+        <br>
+        <label>
+          Повтор пароля:
+          <input type="password" placeholder="Повтори пароль" autofocus required minlength="5" maxlength="20">
+        </label>
+        <br>
+        <label>
+          Возраст:
+          <input type="number" min="1" max="100" step="1" required>
+        </label>
+        <br>
+        <label> Ваш пол:
+          М<input type="radio" name="sex" required>
+        </label>
+        <label>
+          Ж<input type="radio" name="sex" required>
+        </label>
+      </fieldset>
+      <input type="submit" value="Отправить">
+      <input type="reset" value="Очистить">
+    </form>
+  </body>
+</html>
