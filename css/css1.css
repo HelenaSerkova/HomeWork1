@@ -1,0 +1,32 @@
+@import url('css2.css');
+
+h1 {
+  color: yellow;
+  text-align: center;
+  }
+h2{
+  color: green;
+  text-align: center;
+}
+.bg-lightblue {
+  background: lightblue;
+  margin: 10px 20px 10px 20px;
+  border: 2px solid darkblue;
+  border-radius: 15px;
+  width: max-content;
+}
+h3 {
+text-align: center;
+color: darkblue;
+}
+.about {
+  color: darkblue;
+  background: lightblue;
+  text-align: center;
+}
+.read_more {
+ margin: 0;
+ border: 3px solid darkblue; border-radius: 5px;
+ width: max-content;
+ background: lightblue;
+}

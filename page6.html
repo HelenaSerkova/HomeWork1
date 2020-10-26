@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/css1.css">
+    <title>Опросник</title>
+  </head>
+  <body>
+    <h1> Нам важно Ваше мнение!</h1>
+    <h2>5 минут Вашего времени помогут стать лучше нашему сайту</h2>
+    <form id="container" class="bg-lightblue" action="#" method="post">
+      <fieldset>
+        <legend>Опросник</legend>
+        <div class="">
+          <label>
+            Логин:
+            <input type="text" placeholder="Введите Ваш логин" required minlength="5" maxlength="20" autofocus>
+            <em>*От 5 до 20 символов</em>
+          </label>
+        </div>
+          <br>
+          <div class="">
+            <label>
+              Вопрос 1:
+              <input type="text" placeholder="Введите Ваш ответ" autofocus>
+            </label>
+          </div>
+          <br>
+          <div class="">
+            <label>
+              Вопрос 2:
+              <input type="text" placeholder="Введите Ваш ответ" autofocus>
+            </label>
+          </div>
+          <br>
+          <div class="">
+            <label>
+              Вопрос 3:
+              <input type="text" placeholder="Введите Ваш ответ" autofocus>
+            </label>
+          </div>
+          <br>
+          <div class="">
+            <label> Поставь галочку, если то:
+              <input type="checkbox">
+            </label>
+          </div>
+          <br>
+          <div class="">
+            <label> Поставь галочку, если это:
+              <input name="message[]" type="checkbox">
+            </label>
+          </div>
+          <br>
+          <div class="">
+            <label> Выберите подходящие варианты:
+              <select>
+                <optgroup label="вариант1">
+                  <option>one</option>
+                  <option>two</option>
+                </optgroup>
+                <optgroup label="вариант2">
+                  <option>three</option>
+                  <option>four</option>
+                </optgroup>
+              </select>
+            </label>
+          </div>
+          <br>
+          <div class="">
+            <label>Загрузите понравившуюся картинку
+              <input type="file" name="images" multiple>
+            </label>
+          </div>
+      </fieldset>
+      <input class="butt1" type="submit" value="Отправить">
+      <input class="butt2" type="reset" value="Очистить">
+    </form>
+    <h3> Если интересно, изменения на сайте можно посмотреть здесь:</h3>
+    <div class="about"> Горизонтальное меню
+      <a href="#">Ссылка 1</a>
+      <a href="#">Ссылка 2</a>
+      <a href="#">Ссылка 3</a>
+      <a href="#">Ссылка 4</a>
+    </div>
+    <div align="center" class="">
+       <h4>Статья 1</h4>
+       <a href="#">Чехов</a>  Дата публикации 01.01.00
+       <br>
+       <img src="images/Чехов.jpg" alt="Чехов" height="250" width="200">
+       <br>
+       <p>Анто́н Па́влович Че́хов (17 (29) января 1860, Таганрог, Екатеринославская губерния (теперь Ростовская область),
+        Российская империя — 2 (15) июля 1904, Баденвайлер, Германская империя[6][7])
+         — русский писатель, прозаик, драматург, врач.
+       </p>
+       <div class="read_more">
+         <a href="https://ru.wikipedia.org/wiki/%D0%A7%D0%B5%D1%85%D0%BE%D0%B2,_%D0%90%D0%BD%D1%82%D0%BE%D0%BD_%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B8%D1%87">Читать далее</a>
+       </div>
+    </div>
+    <div align="center" class="">
+      <h4>Статья 2</h4>
+      <a href="#">Булгаков</a>  Дата публикации 01.01.00
+      <br>
+      <img src="images/Булгаков.jpg" alt="Булгаков" height="250" width="200">
+      <br>
+      <p>Михаи́л Афана́сьевич Булга́ков (дореф. Михаилъ Аѳанасьевичъ Булгаковъ[1]; 3 [15] мая 1891, Киев,
+        Российская империя — 10 марта 1940, Москва, СССР) — русский и советский писатель, драматург,
+        театральный режиссёр и актёр. Автор романов, повестей и рассказов, множества фельетонов, пьес,
+         инсценировок, киносценариев, оперных либретто.
+      </p>
+      <div class="read_more">
+        <a href="https://ru.wikipedia.org/wiki/%D0%91%D1%83%D0%BB%D0%B3%D0%B0%D0%BA%D0%BE%D0%B2,_%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB_%D0%90%D1%84%D0%B0%D0%BD%D0%B0%D1%81%D1%8C%D0%B5%D0%B2%D0%B8%D1%87">Читать далее</a>
+      </div>
+    <div align="center"  class="">
+      <h4>Статья 3</h4>
+      <a href="#">Оруэлл</a>  Дата публикации 01.01.00
+      <br>
+      <img src="images/Оруэлл.jpg" alt="Оруэлл" height="250" width="200">
+      <br>
+      <p>Джордж О́руэлл (англ. George Orwell, настоящее имя Эрик Артур Блэр, англ. Eric Arthur Blair;
+        25 июня 1903, Мотихари, Британская Индия — 21 января 1950, Лондон) — британский писатель,
+        журналист и публицист. Его работы отличаются простым стилем письма, критикой тоталитаризма
+        и поддержкой демократического социализма.
+      </p>
+      <div class="read_more">
+        <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D1%80%D0%B4%D0%B6_%D0%9E%D1%80%D1%83%D1%8D%D0%BB%D0%BB">Читать далее</a>
+      </div>
+      <div align="center"  class="">
+        <h4>Статья 4</h4>
+        <a href="#">Ремарк</a>  Дата публикации 01.01.00
+        <br>
+        <img src="images/Ремарк.jpg" alt="Ремарк" height="250" width="200">
+        <br>
+        <p>Э́рих Мари́я Рема́рк (нем.  Erich Maria Remarque, при рождении Эрих Пауль Ремарк,
+          Erich Paul Remark; 22 июня 1898, Оснабрюк — 25 сентября 1970, Локарно) — немецкий
+          писатель XX века, представитель «потерянного поколения». Его роман «На Западном фронте
+           без перемен» входит в большую тройку романов «потерянного поколения», изданных в 1929 году,
+           наряду с произведениями «Прощай, оружие!» Эрнеста Хемингуэя и «Смерть героя» Ричарда Олдингтона.
+        </p>
+        <div class="read_more">
+          <a href="https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%BC%D0%B0%D1%80%D0%BA,_%D0%AD%D1%80%D0%B8%D1%85_%D0%9C%D0%B0%D1%80%D0%B8%D1%8F">Читать далее</a>
+        </div>
+    </div>
+
+  </body>
+</html>
