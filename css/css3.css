@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.row {
+  background: lightblue
+}
+[class*=col-] {
+  background-color: lightyellow
+}
+.row, [class*=col-] {
+  padding: 3px;
+  border: 1px solid black;
+  color: darkblue
+}
+.nav-menu-item {
+  display: inline-block;
+}
+.slider {
+  list-style-type: none;
+}
+/* не поняла как сделать фикс.позиционирование при разметке сеткой
+если не ее не желательно совмещать с классом row
+.fixed {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  left: 5px;
+}*/
+.absolute {
+  position: absolute;
+  top: 310px;
+  left: 130px;

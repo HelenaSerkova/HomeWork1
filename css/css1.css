@@ -30,3 +30,7 @@ color: darkblue;
  width: max-content;
  background: lightblue;
 }
+.nav-menu-item {
+  display: inline-block;
+  width: 20%
+}
