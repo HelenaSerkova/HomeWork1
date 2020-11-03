@@ -1,0 +1,58 @@
+@import url('css2.css');
+
+
+
+.sub-menu {
+  display: none;
+}
+li:hover > .sub-menu {
+  display:block;
+  position: absolute;
+}
+.nav-menu-item {
+  position: relative;
+  display: inline-block;
+  width: 15%
+}
+
+.hover:target {
+	display: none;
+}
+
+.form {
+	display: none;
+}
+
+.form:target {
+	display: block;
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	opacity: 0.5;
+	background-color: lightblue;
+}
+
+.form-body {
+	display:none;
+  margin: -10px -20px -10px -20px;
+  border: 2px solid darkblue;
+  border-radius: 5px;
+  width: max-content;
+  height: 150px;
+}
+
+
+.form:target + .form-body {
+	display:block;
+	position: fixed;
+	top:55px;
+	left:55px;
+	right:55px;
+	bottom:55px;
+	background-color: lightyellow;
+	-webkit-box-shadow: -24px 28px 20px -6px rgba(0,0,0,0.57);
+-moz-box-shadow: -24px 28px 20px -6px rgba(0,0,0,0.57);
+box-shadow: -24px 28px 20px -6px rgba(0,0,0,0.57);
+}

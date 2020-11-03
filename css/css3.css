@@ -21,16 +21,10 @@
 }
 .slider {
   list-style-type: none;
+  position: relative;
 }
-/* не поняла как сделать фикс.позиционирование при разметке сеткой
-если не ее не желательно совмещать с классом row
-.fixed {
-  position: fixed;
-  top: 5px;
-  right: 5px;
-  left: 5px;
-}*/
+
 .absolute {
   position: absolute;
-  top: 310px;
-  left: 130px;
+  top: 10px;
+  left: 60px;
